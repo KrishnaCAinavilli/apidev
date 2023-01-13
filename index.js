@@ -19,11 +19,6 @@ const loans=[{
 }]
 
 const requestedLoan=req.query.loannumber
-if(true){
-  eg=10;
-  let y=12;
-}
-y=45;
 const requestloanDetails=loans.filter(loan=>loan.loannumber===requestedLoan);
 res.send(requestloanDetails)
 })
